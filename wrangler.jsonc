@@ -1,0 +1,9 @@
+{
+  // Configuración de Cloudflare Workers para servir el sitio estático.
+  // Despliega los archivos del repositorio como "static assets" (sin backend).
+  "name": "renacer",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "."
+  }
+}
