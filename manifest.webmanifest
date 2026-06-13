@@ -1,0 +1,15 @@
+{
+  "name": "Renacer de la Espiga",
+  "short_name": "Renacer",
+  "description": "Panadería artesanal en Quilpué. Pan, sopaipillas y empanadas con pedido anticipado y entrega a domicilio.",
+  "lang": "es-CL",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F9EDD5",
+  "theme_color": "#F9EDD5",
+  "icons": [
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
