@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Renacer de la Espiga · Panadería artesanal en Quilpué</title>
+  <meta name="description" content="Pan amasado, sopaipillas y empanadas artesanales en Quilpué. Elaboración del día, pedido anticipado y entrega a domicilio en Quilpué, Villa Alemana, Limache y Viña del Mar.">
+  <meta name="keywords" content="panadería Quilpué, pan amasado, sopaipillas, empanadas, artesanal, entrega a domicilio, Renacer de la Espiga">
+  <meta name="author" content="Renacer de la Espiga">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#F9EDD5">
+  <link rel="canonical" href="https://renacerdelaespiga.cl/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Renacer de la Espiga · Panadería artesanal en Quilpué">
+  <meta property="og:description" content="Pan amasado, sopaipillas y empanadas artesanales. Pedido anticipado y entrega a domicilio en Quilpué y alrededores.">
+  <meta property="og:url" content="https://renacerdelaespiga.cl/">
+  <meta property="og:image" content="https://renacerdelaespiga.cl/assets/img/logo-4000px.png">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Renacer de la Espiga">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Renacer de la Espiga · Panadería artesanal en Quilpué">
+  <meta name="twitter:description" content="Pan amasado, sopaipillas y empanadas artesanales. Pedido anticipado y entrega a domicilio.">
+  <meta name="twitter:image" content="https://renacerdelaespiga.cl/assets/img/logo-4000px.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/img/logo-4000px.png">
+
+  <!-- Fonts (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Datos estructurados (SEO local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Renacer de la Espiga",
+    "description": "Panadería artesanal en Quilpué. Pan amasado, sopaipillas y empanadas con pedido anticipado y entrega a domicilio.",
+    "image": "https://renacerdelaespiga.cl/assets/img/logo-4000px.png",
+    "url": "https://renacerdelaespiga.cl/",
+    "priceRange": "$$",
+    "servesCuisine": "Panadería artesanal",
+    "areaServed": ["Quilpué", "Villa Alemana", "Limache", "Viña del Mar"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Quilpué",
+      "addressRegion": "Valparaíso",
+      "addressCountry": "CL"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Saltar al contenido (accesibilidad) -->
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="header__logo" href="#inicio" aria-label="Renacer de la Espiga, ir al inicio">
+        <img src="assets/logo/logo-transparente.svg" alt="Logo Renacer de la Espiga" width="180" height="120">
+      </a>
+
+      <nav class="header__nav" aria-label="Navegación principal">
+        <ul class="header__menu" id="navMenu">
+          <li><a href="#inicio" class="is-active">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#pedidos">Pedidos</a></li>
+          <li><a href="#entregas">Entregas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--whatsapp btn--sm header__cta" href="#" data-wa-cta>
+        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button class="header__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+        <span class="header__toggle-bar"></span>
+        <span class="header__toggle-bar"></span>
+        <span class="header__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay para menú móvil -->
+  <div class="nav-overlay" id="navOverlay" hidden></div>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio">
+      <!-- Espiga decorativa de fondo -->
+      <svg class="hero__wheat" viewBox="653 385 615 615" aria-hidden="true" focusable="false">
+        <g transform="translate(0,2000) scale(0.1,-0.1)" fill="currentColor">
+          <path d="M9688 16063 c-17 -38 -48 -111 -68 -163 -21 -52 -61 -151 -90 -220 -28 -69 -63 -159 -77 -200 -14 -41 -30 -84 -36 -95 -14 -26 -51 -129 -83 -235 -15 -47 -30 -94 -35 -105 -5 -11 -18 -54 -30 -95 -85 -306 -119 -508 -119 -720 0 -80 5 -163 10 -185 47 -184 72 -240 149 -336 95 -118 147 -161 244 -200 l82 -34 205 0 205 0 82 34 c97 39 149 82 244 200 77 96 102 152 149 336 5 22 10 105 10 185 0 212 -34 414 -119 720 -12 41 -25 84 -30 95 -5 11 -20 58 -35 105 -32 106 -69 209 -83 235 -6 11 -22 54 -36 95 -14 41 -49 131 -77 200 -29 69 -69 168 -90 220 -63 160 -98 230 -114 230 -16 0 -50 -59 -81 -142 -10 -27 -21 -48 -25 -48 -4 0 -15 21 -25 48 -31 83 -65 142 -81 142 -9 0 -27 -27 -46 -67z M8775 14554 c-38 -14 -97 -34 -130 -45 -33 -11 -75 -26 -92 -35 -18 -8 -51 -21 -74 -30 -23 -8 -47 -18 -53 -23 -6 -4 -56 -32 -111 -61 -169 -90 -238 -132 -378 -233 -222 -160 -490 -435 -633 -650 -32 -49 -150 -277 -169 -327 -10 -25 -25 -63 -35 -86 -46 -102 -94 -337 -109 -524 -10 -119 -9 -172 4 -300 8 -85 19 -176 25 -202 5 -27 14 -67 19 -90 41 -197 158 -467 309 -715 60 -100 81 -129 165 -235 61 -77 73 -88 101 -88 40 0 76 25 76 52 0 11 -22 50 -49 87 -57 79 -221 329 -221 338 0 3 -17 36 -38 72 -65 115 -124 254 -178 421 -77 239 -96 616 -42 850 34 150 69 259 126 395 27 63 163 285 218 354 27 35 59 77 71 94 44 61 234 247 335 328 274 221 611 405 933 511 l70 23 0 70 0 70 -35 2 c-19 2 -66 -9 -105 -23z M10764 14566 c-3 -7 -4 -40 -2 -72 l3 -59 70 -23 c322 -106 659 -290 933 -511 101 -81 291 -267 335 -328 12 -17 44 -59 71 -94 55 -69 191 -291 218 -354 57 -136 92 -245 126 -395 42 -183 41 -474 -1 -680 -15 -69 -33 -145 -41 -170 -54 -167 -113 -306 -178 -421 -21 -36 -38 -69 -38 -72 0 -9 -164 -259 -221 -338 -27 -37 -49 -76 -49 -87 0 -27 36 -52 76 -52 28 0 40 11 101 88 84 106 105 135 165 235 151 248 268 518 309 715 5 23 14 63 19 90 6 26 17 117 25 202 13 128 14 181 4 300 -15 187 -63 422 -109 524 -10 23 -25 61 -35 86 -19 50 -137 278 -169 327 -143 215 -411 490 -633 650 -140 101 -209 143 -378 233 -55 29 -105 57 -111 61 -6 5 -30 15 -53 23 -23 9 -56 22 -74 30 -17 9 -59 24 -92 35 -33 11 -91 31 -130 45 -78 28 -133 33 -141 12z M8886 14034 c-14 -13 -16 -54 -16 -288 0 -257 4 -316 31 -526 47 -354 188 -679 377 -868 116 -116 244 -178 352 -170 36 2 45 7 50 26 3 12 2 163 -1 335 -6 333 -12 384 -64 523 -78 208 -187 357 -452 621 -119 118 -192 219 -214 293 -20 71 -34 83 -63 54z M10753 14038 c-5 -7 -15 -33 -22 -58 -22 -74 -95 -175 -214 -293 -136 -135 -255 -268 -301 -335 -50 -72 -121 -207 -151 -286 -52 -139 -58 -190 -64 -523 -3 -172 -4 -323 -1 -335 12 -51 173 -27 280 42 246 160 441 539 499 970 27 210 31 269 31 526 0 234 -2 275 -16 288 -19 19 -28 20 -41 4z M9816 12938 c-9 -40 -20 -118 -25 -174 -9 -110 -5 -559 4 -574 3 -6 24 -10 45 -10 21 0 42 4 45 10 9 15 13 464 4 574 -9 107 -36 246 -49 246 -4 0 -15 -33 -24 -72z M8564 12878 c-11 -17 -6 -442 7 -593 13 -146 28 -231 73 -400 49 -181 95 -299 187 -472 97 -183 315 -440 442 -521 105 -68 208 -112 294 -124 66 -10 84 -9 97 1 14 12 16 51 16 303 0 383 -12 451 -123 678 -112 231 -334 486 -614 709 -26 21 -93 85 -149 143 -80 84 -109 123 -145 194 -43 86 -68 110 -85 82z M11073 12878 c-6 -7 -27 -48 -48 -91 -30 -61 -61 -102 -139 -184 -56 -59 -123 -123 -149 -144 -397 -315 -651 -668 -717 -996 -17 -88 -20 -140 -20 -391 0 -252 2 -291 16 -303 13 -10 31 -11 97 -1 86 12 189 56 294 124 127 81 345 338 442 521 92 173 138 291 187 472 45 169 60 254 73 400 13 149 18 576 8 593 -5 6 -14 12 -21 12 -8 0 -18 -6 -23 -12z M9825 11533 c-3 -16 -10 -45 -16 -66 -14 -52 -28 -331 -26 -518 2 -170 8 -189 57 -189 49 0 55 19 57 189 2 187 -12 466 -26 518 -6 21 -13 50 -16 66 -3 15 -10 27 -15 27 -5 0 -12 -12 -15 -27z M8459 11523 c-13 -32 -6 -444 11 -638 40 -462 201 -850 488 -1178 89 -102 156 -164 231 -213 183 -120 221 -134 372 -134 l117 0 4 78 c2 42 0 178 -4 302 -7 248 -22 341 -79 480 -101 245 -229 409 -534 683 -43 40 -109 99 -145 133 -36 33 -89 82 -117 108 -112 103 -202 221 -288 376 -19 36 -43 37 -56 3z M11166 11525 c-9 -13 -16 -27 -16 -30 0 -3 -18 -36 -40 -73 -46 -77 -156 -207 -233 -278 -28 -26 -81 -75 -117 -108 -36 -34 -102 -93 -145 -133 -305 -274 -433 -438 -534 -683 -57 -139 -72 -232 -79 -480 -4 -124 -6 -260 -4 -302 l4 -78 117 0 c151 0 189 14 372 134 75 49 142 111 231 213 287 328 448 716 488 1178 17 192 24 606 11 638 -13 34 -34 35 -55 2z M7550 10518 c-683 -17 -1375 -64 -1406 -95 -17 -18 -19 -94 -2 -111 15 -15 139 -16 256 -2 45 5 169 14 275 19 106 6 228 13 272 16 191 13 911 24 1136 18 135 -3 257 -3 272 1 26 6 27 9 27 70 0 39 -5 67 -12 73 -18 15 -465 20 -818 11z M11511 10522 c-115 -1 -189 -7 -198 -13 -8 -7 -13 -34 -13 -75 0 -61 1 -64 27 -70 15 -4 137 -4 272 -1 225 6 945 -5 1136 -18 44 -3 166 -10 272 -16 106 -5 230 -14 275 -19 117 -14 241 -13 256 2 17 17 15 93 -2 111 -47 46 -1336 109 -2025 99z M9825 10093 c-3 -16 -11 -44 -17 -63 -6 -21 -13 -162 -15 -352 l-5 -318 52 0 52 0 -5 318 c-2 190 -9 331 -15 352 -6 19 -14 47 -17 63 -3 15 -10 27 -15 27 -5 0 -12 -12 -15 -27z"/>
+        </g>
+      </svg>
+
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          Panadería artesanal · Quilpué, Chile
+        </p>
+        <h1 class="hero__title">Renacer de la Espiga</h1>
+        <p class="hero__subtitle">Pan amasado, sopaipillas y empanadas. Elaboración artesanal, pedido anticipado y entrega a domicilio.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#productos">
+            Ver productos
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--whatsapp" href="#" data-wa-cta>
+            <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+            Cotiza por WhatsApp
+          </a>
+        </div>
+
+        <ul class="hero__trust">
+          <li>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 2v20M12 7c0-2 1.5-4 4-4 0 2-1.5 4-4 4Zm0 0c0-2-1.5-4-4-4 0 2 1.5 4 4 4Zm0 6c0-2 1.5-4 4-4 0 2-1.5 4-4 4Zm0 0c0-2-1.5-4-4-4 0 2 1.5 4 4 4Z"/></svg>
+            Hecho a mano
+          </li>
+          <li>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2"/></svg>
+            Fresco del día
+          </li>
+          <li>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+            Entrega a domicilio
+          </li>
+        </ul>
+      </div>
+
+      <a class="hero__scroll" href="#productos" aria-label="Ver productos">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10l5 5 5-5"/></svg>
+      </a>
+    </section>
+
+    <!-- ===================== PRODUCTOS ===================== -->
+    <section class="section section--productos" id="productos">
+      <div class="container">
+        <p class="section__eyebrow reveal">Del horno a tu mesa</p>
+        <h2 class="section__title reveal">Nuestros productos</h2>
+        <p class="section__intro reveal">Todo se elabora del día y bajo pedido anticipado. Pedido mínimo de 20 unidades por producto.</p>
+
+        <div class="productos__grid">
+          <!-- Pan amasado -->
+          <article class="producto reveal">
+            <div class="producto__img">
+              <span class="producto__min-badge">Mín. 20 un.</span>
+              <svg class="producto__ilustracion" viewBox="0 0 120 120" aria-hidden="true">
+                <ellipse cx="60" cy="66" rx="42" ry="30" fill="none" stroke="currentColor" stroke-width="3"/>
+                <path d="M44 50c4-6 28-6 32 0M40 62c6-7 34-7 40 0M44 74c4-6 28-6 32 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="producto__body">
+              <h3 class="producto__nombre">Pan amasado</h3>
+              <p class="producto__desc">Pan casero recién horneado, miga suave y corteza dorada. El clásico de la mesa chilena.</p>
+              <p class="producto__precio"><span class="producto__precio-label">Precio</span> Consultar</p>
+              <a class="btn btn--cotizar" href="#" data-cotizar="Pan amasado">
+                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+                Cotizar
+              </a>
+            </div>
+          </article>
+
+          <!-- Empanadas de pino -->
+          <article class="producto reveal">
+            <div class="producto__img">
+              <span class="producto__min-badge">Mín. 20 un.</span>
+              <svg class="producto__ilustracion" viewBox="0 0 120 120" aria-hidden="true">
+                <path d="M24 78c0-24 16-40 36-40s36 16 36 40Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M24 78c4-4 4-8 0-12m9 12c4-4 4-9 0-13m9 13c4-4 4-9 0-13" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="producto__body">
+              <h3 class="producto__nombre">Empanadas de pino</h3>
+              <p class="producto__desc">De horno, rellenas de pino tradicional: carne, cebolla, huevo y aceituna.</p>
+              <p class="producto__precio"><span class="producto__precio-label">Precio</span> Consultar</p>
+              <a class="btn btn--cotizar" href="#" data-cotizar="Empanadas de pino">
+                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+                Cotizar
+              </a>
+            </div>
+          </article>
+
+          <!-- Empanadas de queso -->
+          <article class="producto reveal">
+            <div class="producto__img">
+              <span class="producto__min-badge">Mín. 20 un.</span>
+              <svg class="producto__ilustracion" viewBox="0 0 120 120" aria-hidden="true">
+                <path d="M30 84L60 38l30 46Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <circle cx="55" cy="70" r="4" fill="currentColor"/>
+                <circle cx="68" cy="74" r="3" fill="currentColor"/>
+                <circle cx="60" cy="58" r="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="producto__body">
+              <h3 class="producto__nombre">Empanadas de queso</h3>
+              <p class="producto__desc">Crujientes y doradas, con queso fundido en su interior. Listas para compartir.</p>
+              <p class="producto__precio"><span class="producto__precio-label">Precio</span> Consultar</p>
+              <a class="btn btn--cotizar" href="#" data-cotizar="Empanadas de queso">
+                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+                Cotizar
+              </a>
+            </div>
+          </article>
+
+          <!-- Sopaipillas -->
+          <article class="producto reveal">
+            <div class="producto__img">
+              <span class="producto__min-badge">Mín. 20 un.</span>
+              <svg class="producto__ilustracion" viewBox="0 0 120 120" aria-hidden="true">
+                <path d="M60 26c6 0 7 5 12 6s9-3 12 2-1 9 2 13 8 4 7 10-7 6-8 12 3 9-2 12-9-2-13 1-3 8-10 8-7-5-12-6-9 3-12-2 1-9-2-13-8-4-7-10 7-6 8-12-3-9 2-12 9 2 13-1 4-8 10-8Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <circle cx="52" cy="56" r="3" fill="currentColor"/>
+                <circle cx="68" cy="60" r="3" fill="currentColor"/>
+                <circle cx="58" cy="70" r="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="producto__body">
+              <h3 class="producto__nombre">Sopaipillas</h3>
+              <p class="producto__desc">De zapallo, suaves y doradas. Perfectas para la once o un día de lluvia.</p>
+              <p class="producto__precio"><span class="producto__precio-label">Precio</span> Consultar</p>
+              <a class="btn btn--cotizar" href="#" data-cotizar="Sopaipillas">
+                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+                Cotizar
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CÓMO PEDIR ===================== -->
+    <section class="section section--pasos" id="pedidos">
+      <div class="container">
+        <p class="section__eyebrow reveal">Simple y transparente</p>
+        <h2 class="section__title reveal">¿Cómo hacer tu pedido?</h2>
+        <p class="section__intro reveal">En cinco pasos tienes tu pedido listo. Todo se coordina por WhatsApp.</p>
+
+        <ol class="pasos">
+          <li class="paso reveal">
+            <span class="paso__num">
+              <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+            </span>
+            <div class="paso__cuerpo">
+              <span class="paso__indice">Paso 1</span>
+              <p class="paso__texto">Cotiza por WhatsApp los productos que deseas y las cantidades.</p>
+            </div>
+          </li>
+          <li class="paso reveal">
+            <span class="paso__num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h10"/></svg>
+            </span>
+            <div class="paso__cuerpo">
+              <span class="paso__indice">Paso 2</span>
+              <p class="paso__texto">Recibirás el precio total y el tiempo de elaboración.</p>
+            </div>
+          </li>
+          <li class="paso reveal">
+            <span class="paso__num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></svg>
+            </span>
+            <div class="paso__cuerpo">
+              <span class="paso__indice">Paso 3</span>
+              <p class="paso__texto">Confirma tu pedido respondiendo por WhatsApp.</p>
+            </div>
+          </li>
+          <li class="paso reveal">
+            <span class="paso__num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 7h18v12H3zM3 11h18M7 15h4"/></svg>
+            </span>
+            <div class="paso__cuerpo">
+              <span class="paso__indice">Paso 4</span>
+              <p class="paso__texto">Realiza la transferencia bancaria. <span class="badge">Datos por confirmar</span></p>
+            </div>
+          </li>
+          <li class="paso reveal">
+            <span class="paso__num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+            </span>
+            <div class="paso__cuerpo">
+              <span class="paso__indice">Paso 5</span>
+              <p class="paso__texto">Recibe tu pedido a domicilio o retíralo en nuestro local.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== ENTREGAS ===================== -->
+    <section class="section section--entregas" id="entregas">
+      <div class="container">
+        <p class="section__eyebrow reveal">Llegamos a tu puerta</p>
+        <h2 class="section__title reveal">Zonas de entrega</h2>
+        <p class="section__intro reveal">Despachamos a domicilio en las siguientes comunas de la Región de Valparaíso.</p>
+
+        <div class="entregas__grid">
+          <div class="zona reveal">
+            <span class="zona__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+            <h3 class="zona__nombre">Quilpué</h3>
+            <p class="zona__costo">Despacho: <span class="badge">Consultar</span></p>
+          </div>
+          <div class="zona reveal">
+            <span class="zona__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+            <h3 class="zona__nombre">Villa Alemana</h3>
+            <p class="zona__costo">Despacho: <span class="badge">Consultar</span></p>
+          </div>
+          <div class="zona reveal">
+            <span class="zona__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+            <h3 class="zona__nombre">Limache</h3>
+            <p class="zona__costo">Despacho: <span class="badge">Consultar</span></p>
+          </div>
+          <div class="zona reveal">
+            <span class="zona__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+            <h3 class="zona__nombre">Viña del Mar</h3>
+            <p class="zona__costo">Despacho: <span class="badge">Consultar</span></p>
+          </div>
+        </div>
+
+        <div class="entregas__cta reveal">
+          <p class="entregas__nota">También puedes <strong>retirar en nuestro local</strong> <span class="badge">Dirección por confirmar</span>. Consulta por zonas fuera de estas comunas.</p>
+          <a class="btn btn--whatsapp" href="#" data-wa-cta data-wa-text="Hola Renacer de la Espiga, quiero consultar por el despacho a mi comuna.">
+            <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+            Consultar despacho
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="section section--contacto" id="contacto">
+      <div class="container">
+        <p class="section__eyebrow reveal">Hablemos</p>
+        <h2 class="section__title reveal">Contacto</h2>
+        <p class="section__intro reveal">¿Tienes dudas o quieres hacer un pedido especial? Escríbenos.</p>
+
+        <div class="contacto__grid">
+          <!-- Formulario -->
+          <form class="contacto__form reveal" id="contactForm" novalidate
+                action="https://formspree.io/f/TU_FORM_ID" method="POST">
+            <!-- Honeypot anti-spam (oculto a usuarios reales) -->
+            <div class="form__hp" aria-hidden="true">
+              <label for="website">No completar</label>
+              <input type="text" id="website" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde renacerdelaespiga.cl">
+
+            <div class="form__group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+              <span class="form__error" data-error-for="nombre"></span>
+            </div>
+
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required autocomplete="email">
+              <span class="form__error" data-error-for="email"></span>
+            </div>
+
+            <div class="form__group">
+              <label for="telefono">Teléfono <span class="form__opt">(opcional)</span></label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+56 9 XXXX XXXX" autocomplete="tel">
+            </div>
+
+            <div class="form__group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué necesitas" required></textarea>
+              <span class="form__error" data-error-for="mensaje"></span>
+            </div>
+
+            <p class="form__privacy">Al enviar este formulario aceptas nuestra política de privacidad. No compartimos tus datos con terceros.</p>
+
+            <button type="submit" class="btn btn--primary btn--block" id="submitBtn">
+              <span class="btn__label">Enviar mensaje</span>
+              <span class="btn__spinner" hidden aria-hidden="true"></span>
+            </button>
+
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <!-- Datos de contacto -->
+          <aside class="contacto__datos reveal">
+            <div class="dato">
+              <span class="dato__icon"><svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg></span>
+              <div>
+                <h3 class="dato__titulo">WhatsApp</h3>
+                <a class="dato__link" href="#" data-wa-cta>Escríbenos ahora</a>
+                <p class="dato__detalle"><span class="badge">Número por confirmar</span></p>
+              </div>
+            </div>
+
+            <div class="dato">
+              <span class="dato__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div>
+                <h3 class="dato__titulo">Email</h3>
+                <p class="dato__detalle"><span class="badge">Email por confirmar</span></p>
+              </div>
+            </div>
+
+            <div class="dato">
+              <span class="dato__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+              <div>
+                <h3 class="dato__titulo">Retira en nuestro local</h3>
+                <p class="dato__detalle"><span class="badge">Dirección por confirmar</span></p>
+              </div>
+            </div>
+
+            <div class="dato">
+              <span class="dato__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2"/></svg></span>
+              <div>
+                <h3 class="dato__titulo">Horario de atención</h3>
+                <p class="dato__detalle"><span class="badge">Horario por confirmar</span></p>
+              </div>
+            </div>
+
+            <div class="dato">
+              <span class="dato__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></span>
+              <div>
+                <h3 class="dato__titulo">Instagram</h3>
+                <p class="dato__detalle"><span class="badge">Cuenta por confirmar</span></p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POLÍTICA DE DEVOLUCIONES ===================== -->
+    <section class="section section--politica" id="politica">
+      <div class="container">
+        <div class="politica__inner reveal">
+          <span class="politica__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 6v5m0 4h.01"/></svg></span>
+          <div>
+            <h2 class="section__title section__title--left">Política de devoluciones</h2>
+            <div class="politica__texto">
+              <p>Nuestros productos son de panadería y repostería, es decir, <strong>perecederos y elaborados bajo pedido anticipado</strong>. Por esta razón no se aceptan cambios ni devoluciones una vez entregado el pedido.</p>
+              <p>Si hubo un <strong>error en tu pedido</strong>, contáctanos de inmediato por WhatsApp el mismo día de la entrega para encontrar una solución.</p>
+              <p>Cada pedido se prepara especialmente para ti, cuidando la frescura y la calidad de lo que recibes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__brand">
+        <img class="footer__logo" src="assets/logo/logo-fondo-oscuro.svg" alt="Renacer de la Espiga" width="120" height="80">
+        <p class="footer__tagline">Pan, sopaipillas y empanadas artesanales, hechas a mano en Quilpué.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Navegación del pie">
+        <h3 class="footer__heading">Navegación</h3>
+        <ul class="footer__links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#pedidos">Cómo pedir</a></li>
+          <li><a href="#entregas">Entregas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#politica">Política de devoluciones</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Síguenos</h3>
+        <div class="footer__social">
+          <a class="footer__social-link" href="#" data-wa-cta aria-label="WhatsApp">
+            <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+          </a>
+          <a class="footer__social-link" href="#" aria-label="Instagram (por confirmar)">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          </a>
+        </div>
+        <p class="footer__lugar">Panadería artesanal · Quilpué, Chile</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__copy">© 2026 Renacer de la Espiga. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="#" data-wa-cta aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.8 1.3 1.3-4.6-.3-.5a12.7 12.7 0 0 1-2-6.7C2.9 8.8 8.8 2.9 16 2.9S29.1 8.8 29.1 16 23.2 28.9 16 28.9zm7.2-9.6c-.4-.2-2.3-1.1-2.7-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.6-.5-1-1.1-1.4-1.5-.3-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.3 5.5.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+    </svg>
+    <span class="wa-float__tip">¿Hacemos tu pedido?</span>
+  </a>
+
+  <!-- Botón volver arriba -->
+  <button class="to-top" id="toTop" aria-label="Volver arriba" hidden>
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 14l5-5 5 5"/></svg>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
