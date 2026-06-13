@@ -21,21 +21,24 @@ de entrega y contactar al negocio.
 
 ```
 .
-├── index.html              # Página única (sprite de iconos + armador de pedido)
-├── css/styles.css          # Estilos (mobile-first, variables de marca, BEM)
-├── js/script.js            # Menú, WhatsApp, validación, scroll-spy y carrito
-├── assets/
-│   ├── logo/               # Logos SVG + favicon
-│   └── img/                # og-cover, apple-touch-icon, icon-512, logo PNG
-├── manifest.webmanifest    # PWA básica (instalable)
-├── _headers                # Cabeceras de seguridad (Cloudflare Pages)
+├── public/                 # ← lo único que se publica (assets de Cloudflare)
+│   ├── index.html          # Página única (sprite de iconos + armador de pedido)
+│   ├── css/styles.css      # Estilos (mobile-first, variables de marca, BEM)
+│   ├── js/script.js        # Menú, WhatsApp, validación, scroll-spy y carrito
+│   ├── assets/             # Logos SVG, favicon, og-cover, iconos PNG
+│   ├── manifest.webmanifest
+│   ├── _headers            # Cabeceras de seguridad
+│   ├── robots.txt
+│   └── sitemap.xml
+├── wrangler.jsonc          # Config de despliegue (sirve ./public)
 ├── .htaccess               # Cabeceras de seguridad (Apache, alternativa)
-├── robots.txt              # Indexación
-├── sitemap.xml             # Mapa del sitio
 ├── .env.example            # Variables de entorno (plantilla)
 ├── AUDIT.md · IMPROVEMENTS.md · COMPONENTS.md · PERFORMANCE.md
 └── .gitignore
 ```
+
+> La documentación y la configuración viven en la **raíz** y **no se publican**:
+> Cloudflare sólo sirve la carpeta `public/`.
 
 ## 🛒 Armador de pedido
 
