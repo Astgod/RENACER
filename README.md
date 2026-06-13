@@ -1,9 +1,14 @@
 # Renacer de la Espiga — Sitio web
 
 Página web estática y responsive para **Renacer de la Espiga**, panadería
-artesanal en Quilpué, Chile. Permite ver el catálogo de productos, entender el
-proceso de pedido por WhatsApp, conocer las zonas de entrega y contactar al
-negocio.
+artesanal en Quilpué, Chile. Permite ver el catálogo de productos, **armar un
+pedido** y enviarlo completo por WhatsApp, entender el proceso, conocer las zonas
+de entrega y contactar al negocio.
+
+> **Documentación del proyecto:** [`AUDIT.md`](AUDIT.md) (auditoría),
+> [`IMPROVEMENTS.md`](IMPROVEMENTS.md) (cambios), [`COMPONENTS.md`](COMPONENTS.md)
+> (guía de componentes) y [`PERFORMANCE.md`](PERFORMANCE.md) (checklist y
+> mantenimiento).
 
 ## 🧱 Stack
 
@@ -16,19 +21,28 @@ negocio.
 
 ```
 .
-├── index.html              # Página única con todas las secciones
-├── css/styles.css          # Estilos (mobile-first, variables de marca)
-├── js/script.js            # Menú, WhatsApp y validación de formulario
+├── index.html              # Página única (sprite de iconos + armador de pedido)
+├── css/styles.css          # Estilos (mobile-first, variables de marca, BEM)
+├── js/script.js            # Menú, WhatsApp, validación, scroll-spy y carrito
 ├── assets/
 │   ├── logo/               # Logos SVG + favicon
-│   └── img/                # Imágenes (logo PNG, productos, fondos)
+│   └── img/                # og-cover, apple-touch-icon, icon-512, logo PNG
+├── manifest.webmanifest    # PWA básica (instalable)
 ├── _headers                # Cabeceras de seguridad (Cloudflare Pages)
 ├── .htaccess               # Cabeceras de seguridad (Apache, alternativa)
 ├── robots.txt              # Indexación
 ├── sitemap.xml             # Mapa del sitio
 ├── .env.example            # Variables de entorno (plantilla)
+├── AUDIT.md · IMPROVEMENTS.md · COMPONENTS.md · PERFORMANCE.md
 └── .gitignore
 ```
+
+## 🛒 Armador de pedido
+
+El catálogo permite elegir cantidades (mínimo 20 por producto) y **acumular
+varios productos** en un pedido que se guarda en `localStorage` (persiste al
+recargar). El botón "Enviar pedido" abre WhatsApp con un único mensaje que lista
+todo. Ver detalle en [`COMPONENTS.md`](COMPONENTS.md).
 
 ## ⚙️ Datos a completar antes de publicar
 
